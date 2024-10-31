@@ -1,0 +1,192 @@
+/* NetLeader Aviator Header */
+.nlavtitle {
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+/* Back to Profiles Link */
+input.nlavsmbtn {
+    float: right;
+    color: black;
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px
+}
+input.nlavsmbtn:hover {
+    background-color: lightgray;
+}
+input.nlavsmbtn:focus {
+    background-color: gray;
+}
+/* Profile Buttons */
+#acprofiles {
+    text-align: center;
+}
+input[type=submit].nlavprof {
+    width: 50%;
+    border-radius: 8px;
+    text-align: center;
+    white-space: normal;
+    color: black;
+    background-color: whitesmoke;
+}
+input[type=submit].nlavprof:hover {
+    background-color: lightgray;
+}
+input[type=submit].nlavprof:focus {
+    background-color: gray;
+}
+/* Aircraft Description */
+table.nlavdesctab {
+    padding: 0px;
+    border: 0px;
+}
+td.nlavdesctab {
+    padding: 0px;
+    border: 0px;
+}
+input[type=text].nlavdesc {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+/* Status Message */
+#statusmsg {
+    width: 100%;
+    text-align: center;
+}
+#statusmsg p.nlaverror {
+    color: red;
+}
+#statusmsg p.nlavgood {
+    color: green;
+}
+/* Loading, Items and CG Envelope Tables */
+#itemstable {
+    margin: 0px;
+}
+#itemstotal {
+    border-top: 0px;
+}
+table#moditems {
+    border: 0px;
+}
+table#modcgenv {
+    border: 0px;
+}
+td.adddelbuttons {
+    width: 100%;
+    text-align: right;
+    padding: 0px;
+    border: 0px;
+}
+button.nlavbutton {
+    color: black;
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+button.nlavbutton:hover {
+    background-color: lightgray;
+}
+button.nlavbutton:focus {
+    background-color: gray;
+}
+table.nlavctr {
+    margin-left: auto;
+    margin-right: auto;
+}
+th.nlavnumhdr {
+    text-align: right;
+}
+td.nlavnum {
+    text-align: right;
+}
+input.nlavnum {
+    text-align: right;
+    color: black;
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+}
+input.nlavblu {
+    border: 2px solid blue;
+}
+th.nlavtxthdr {
+    text-align: left;
+    padding-left: 8px;
+}
+td.nlavtxt {
+    text-align: left;
+}
+input.nlavtxt {
+    text-align: left;
+    color: black;
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+}
+td.nlavwide {
+    width: 30%;
+}
+td.nlavnarrow {
+    width: 20%;
+}
+/* CG Envelope Table */
+h5.nlavenvhdr {
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+#cgsvgtable {
+    border: 0px;
+}
+td.cgsvgtd {
+    text-align: center;
+    border: 0px;
+}
+/* Update and Delete Profile Buttons */
+#nlavupprofile {
+    text-align: center;
+    width: 100%;
+}
+#updatedel, #editprof {
+    border: 0px;
+}
+td.updelbutton {
+    text-align: center;
+    padding: 0px;
+    border: 0px;
+}
+input[type=submit].nlavupprof {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit].nlavupprof:hover {
+    background-color: lightgray;
+}
+input[type=submit].nlavupprof:focus {
+    background-color: gray;
+}

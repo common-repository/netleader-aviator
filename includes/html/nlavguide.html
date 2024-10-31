@@ -1,0 +1,81 @@
+<div>
+
+  <h3>NetLeader Aviator Guide</h3>
+
+  <p>NetLeader Aviator computes aircraft weight & balance for <a href="#nlavpilots">pilots</a> using predefined aircraft profiles created
+    by <a href="#nlavadmin">maintenance officers or administrators</a> from official aircraft documents.
+  </p>
+
+  <a name="nlavpilots"></a>
+  <hr>
+  <h3>NetLeader Aviator Guide for Pilots</h3>
+
+  <h4>Usage:</h4>
+  <ol style="list-style-type: decimal;">
+  <li>NetLeader Aviator's opening screen displays a list of predefined aircraft profiles created by your organization. Click on the profile you want to use.</li>
+  <li>Enter your weights into the Loading Table. Results are automatically recalculated after each entry. Print the results if you wish to save them.</li>
+  </ol>
+
+  <h6><strong>EXAMPLE: Enter your weights into the zero weight fields of the loading table (highlighted below):</strong></h6>
+    <img src="$nlav_url/images/nlavuser.jpg">
+
+  <br>
+  <br>
+
+  <a name="nlavadmin"></a>
+  <hr>
+  <h3>NetLeader Aviator Guide for Officers and Administrators</h3>
+
+  <p>Users with administrative privileges or roles with the capability of `Edit Dashboard` can create, edit and delete aircraft profiles. Please see your site's webmaster if you need administrative privileges.</p>
+
+  <h4>Add or Edit a Profile</h4>
+  <ol style="list-style-type: decimal;">
+    <li>All data should be taken from the official Pilot's Operating Handbook and FAA Approved Airplane Flight Manual plus the aircraft's most recent weight and balance revision.</li>
+    <li>To add a new profile, click on 'ADD NEW AIRCRAFT PROFILE' from the opening screen which will open a <strong>sample</strong>
+  aircraft profile for editing.</li>
+    <li>To clone an existing profile, edit that profile (see below) and then change the profile's name. A new profile will be created when you save your changes.</li>
+    <li>To edit an existing profile, click on a profile from the opening screen and then click on the 'Edit Profile' button
+  at the bottom of the screen.</li>
+    <li>Use the ‘Update Profile’ button at the bottom of the edit screen to save your changes when done.</li>
+      <p><strong>Your changes will be lost if you do not save them!</strong></p>
+  </ol>
+
+  <h4>Delete a Profile</h4>
+  <ol style="list-style-type: decimal;">
+    <li>Edit a profile (see above).</li>
+    <li>Click on the ‘Delete Profile’ button at the bottom of the edit screen to permanently delete the selected profile.</li>
+  </ol>
+
+  <h4>Editing a Profile</h4>
+  <ol style="list-style-type: decimal;">
+    <li>Change the name of the profile, if desired. A profile name should begin with the registration number of the aircraft (N number).</li>
+    <li>The Summary and CG Envelope sections are computed and cannot be changed.</li>
+      <p><strong>EXAMPLE: Summary and CG Envelope Sections</strong></p>
+      <img src="$nlav_url/images/nlavdesc.png">
+    <li>Enter each Item’s Description, Weight and Arm in the Loading Table from approved documents for the aircraft. Enter a <strong>weight of zero</strong> for weights to be entered by Pilots. Moments are calculated and cannot be changed.</li>
+    <li>The weight of each item containing the word ‘fuel’ (case insensitive) in the description will be used to calculate the Zero Fuel Weight.</li>
+    <li>Use the ‘Add Row’ and ‘Delete Row’ buttons at the bottom of the Loading Table to add or delete rows at the end of the table.</li>
+      <p><strong>EXAMPLE: Loading Table</strong></p>
+      <img src="$nlav_url/images/nlavloading.png">
+    <li>Create the ‘CG Envelope Table’ referencing the ‘Center of Gravity Limits’ published in the aircraft's official Pilot’s Operating Handbook.</li>
+      <p><strong>EXAMPLE: Center of Gravity Limits Table from aircraft's official documents.</strong></p>
+      <img src="$nlav_url/images/nlavexcgenv.png">
+    <ol style="list-style-type: lower-alpha;">
+      <li>Starting from the lowest weight shown on the CG Limits, enter the Weight, Forward CG and Aft CG for that weight. You may have to convert moment to arm if the limits you are using are a moment envelope.</li>
+      <li>Enter the Weight, Forward CG and Aft CG for each weight where there is a change in the slope of the envelope.</li>
+      <li>Enter the Weight, Forward CG and Aft CG for the highest weight shown on the CG Envelope. This weight will be used as the ‘Max Gross’ weight shown in the Summary.</li>
+      <li>Use the ‘Add Row’ and ‘Delete Row’ buttons at the bottom of the CG Envelope Table to add or delete rows at the end of the table.</li>
+      <li>Note that only one envelope (e.g. Normal Category) can be entered into a profile. For additional envelopes, create additional profiles.</li>
+        <p><strong>EXAMPLE: CG Envelope Table</strong></p>
+        <img src="$nlav_url/images/nlavcgenv.png">
+    </ol>
+    <li>Use the ‘Update Profile’ button at the bottom of the screen to save your changes. A new profile will be created if you have changed the name of the profile to one that is not already in use.</li>
+      <p><strong>Your changes will be lost if you do not save them!</strong></p>
+  </ol>
+
+  <br>
+  <br>
+  <p><strong>NetLeader Aviator is for educational purposes only, use official procedures and documents to calculate weight &amp; balance prior to flight.</strong></p>
+  <hr>
+  
+</div>
